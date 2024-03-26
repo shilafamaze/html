@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            color:darkgreen ;
+            text-align: center;
+            text-decoration:underline;
+            text-shadow: 2px 3px 3px  rgb(174, 216, 22);
+            border-color: black;
+            border-radius: 10px;
+            
+        }
+        .ftr{
+            margin-left: 500px;
+        }
+        table{
+            border-style:dotted;
+            border-radius: 15px;
+            border-color: coral;
+            margin:auto ;
+            background-color: #cf32b24b;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Student Registration Form.</h1>
+    
+    <table>
+        <form>
+            <tr class="ftr">
+                <th>First Name:</th>
+                <td><input type="text" maxlength="50">(Max 50 Characters Allowed)</td>
+                
+            </tr>
+            <tr>
+                <th>Second Name:</th>
+                <td><input type="text" maxlength="50">(Max 50 Characters Allowed)</td>
+               
+            </tr>
+            <tr>
+                <th>Email ID:</th>
+                <td><input type="email" value="sfsff@gmail.com"></td>
+
+            </tr>
+            <tr>
+                <th>Mobile Number:</th>
+                <td><input type="text" value="90541xxxxx">(Max 10 Digits Allowed)</td>
+            </tr>
+            <tr>
+                <th>Gender:</th>
+                <td><input type="radio"  value="male" name="Gender">Male 
+                    <input type="radio"  value="Female" name="Gender">Female</td>
+            </tr>
+            <tr>
+                <th>D.O.B:</th>
+                <td><input type="date"></td>
+
+            </tr>
+            <tr>
+                <th>Address:</th>
+                <td><textarea rows="5" cols="26"></textarea></td>
+            </tr>
+            <tr>
+               <th>City:</th>
+               <td><input type="text" placeholder="bangalore">(Max 50 Characters Allowed)</td>
+            </tr>
+            <tr>
+                <th>Pin code:</th>
+                <td><input type="number" placeholder="4984**" maxlength="6">(Max 6 Number Allowed )</td>
+            </tr>
+            <tr>
+                <th>State:</th>
+                <td><input type="text" placeholder="kerala"></td>
+            </tr>
+            <tr>
+                <th>Country</th>
+                <td>India</td>
+
+            </tr>
+            <tr>
+                <th>Hobbies</th>
+                <td colspan="2"><input type="checkbox">Drawing
+                    <input type="checkbox">Dancing
+                    <input type="checkbox">Football
+                    <input type="checkbox">Cricket
+                    <input type="checkbox">Handball
+                    <input type="checkbox">Hockey
+                    <input type="checkbox">others
+                    <input type="text" placeholder="Ex:- Teaching...">(Max 50 characters Allowed)
+                </td>
+                <tr>
+                    <th>Qualification</th>
+                    <td><input type="checkbox">Hight school(10th)<br>
+                        <input type="checkbox">Higher secondary school(12th)<br>
+                        <input type="checkbox">Graduation(Bachelor)<br>
+                        <input type="checkbox">Post Graduation(Masters)<br>
+                        <input type="checkbox">Phd
+                    </td>
+
+                </tr>
+                <tr>
+                    <th>course Applied For</th>
+                    <td><input type="radio" value="b.com" name="course"> B.COM<br>
+                        <input type="radio" value="b.com" name="course">B.SC<br>
+                        <input type="radio" value="b.com" name="course"> BA<br>
+                        <input type="radio" value="b.com" name="course"> MCA<br>
+                        <input type="radio" value="b.com" name="course"> M.COM<br>
+                        <input type="radio" value="b.com" name="course"> M.SC<br>
+                        <input type="radio" value="b.com" name="course">MA
+                    </td>
+                </tr>
+                
+            </tr>
+        </form>  
+
+    </table>
+
+    
+</body>
+</html>
