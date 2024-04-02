@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a:link {
+            color: red;
+        }
+        a:visited {
+            color:green;
+
+        }
+        a:hover {
+            color:hotpink
+        }
+        a:active{
+            color: blueviolet;
+        }
+        div{
+            background-color: green;
+            color: white;
+            padding: 25px;
+            text-align: center;
+
+        }
+        div:hover {
+            background-color: blue;
+        }
+        p {
+            display: none;
+            background-color: yellow;
+            padding: 20px;
+
+        }
+       
+    </style>
+</head>
+<body>
+    <h3>styling a link depending on state</h3>
+
+    <p><b><a href="default.asp" target="_blank">This is a link</a></b></p>
+    <p><b>note:</b> a:hover Must come after a:link and a:visited in the css definition in order to be effective.</p>
+    <p><b>note:</b>a:active must come after a:hover in the css definitio in order ot be effective.</p>
+    
+
+    <p>Mouse over the div element below to change its background color:</p>
+
+    <div>mouse over me </div>
+
+
+</body>
+</html>
