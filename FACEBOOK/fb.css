@@ -19,11 +19,16 @@ body{
     text-decoration: none;
     font-family: tahoma,verdana,arial,sans-serif;
     margin-left:170px
+
     
 }
+
 .login-label{
     color:#fff;
     font-size: 11px;
+}
+input:focus {
+    background-color: #aac0e6;
 }
 .login-controls{
     margin-left: 115px;
@@ -47,6 +52,7 @@ body{
 .sub-btn:hover{
     background: rgb(5, 8, 41);
 }
+
 .main-section{
     background: linear-gradient(348deg, rgba(35,132,247,1) 0%, rgba(255,255,255,0.7120098039215687) 92%);
 width: 100%;
@@ -81,9 +87,16 @@ height: 500px;
     border-color: #ffff;
 
 }
+
 .hr{
     border-color:black;
 }
 .input{
     min-width: 335px;
+}
+.logo-text:hover{
+    font-style: italic;
+    color:black;
+    
+    
 }

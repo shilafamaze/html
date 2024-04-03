@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrap{
+            display: flex;
+            flex-wrap: wrap;
+             background-color: #ed8f8f;
+        }
+        .wrap > div {
+            width: 40px;
+            background-color: #c78b3a;
+            padding: 35px;
+            margin: 35px;
+            text-align: center;
+        }
+        .nowrap{
+            display: flex;
+            flex-wrap: nowrap;
+            background-color: #ed8f8f;
+
+        }
+        .nowrap >div{
+            width: 30px;
+            height: 10px;
+            background-color: bisque;
+            padding: 30px;
+            margin: 30px;
+            text-align: center;
+            
+        }
+        .wrap-reverse {
+            display: flex;
+            flex-wrap: wrap-reverse;
+            background-color: #9e34eb;
+        }
+        .wrap-reverse > div {
+            width: 15px;
+            height: 10px;
+            background-color: #c42d9a;
+            text-align: center;
+            padding: 30px;
+            margin: 30px;
+
+
+        }
+    </style>
+</head>
+<body>
+    <h1> wrap</h1>
+    <div class="wrap">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+    </div>
+    <h1>nowrap</h1>
+    <div class="nowrap">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        
+    </div>
+    <h1>wrap-reverse</h1>
+    <div class="wrap-reverse">
+        <div>0</div>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+    </div>
+
+</body>
+</html>

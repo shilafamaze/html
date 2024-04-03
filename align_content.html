@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .space-around{
+            
+            display:flex;
+            align-content: space-around;
+            overflow: scroll;
+            flex-wrap: wrap;
+            background-color: aquamarine;
+        }
+        .space-around>div{
+            
+            background-color: black;
+            text-align: center;
+            color: aliceblue;
+            padding: 40px;
+            margin: 40px;
+        }
+        .space-between{
+            display: flex;
+            align-content: space-between;
+         justify-content: center;
+            background-color: blueviolet;
+           
+
+        }
+        .space-between>div{
+            width: 40px;
+            background-color: chartreuse;
+            color: rgb(177, 126, 30);
+            padding: 40px;
+            margin: 40px;
+
+        }
+        .stretch{
+            
+            display: flex;
+            align-content: stretch;
+            background-color: brown;
+            flex-wrap: wrap;
+        }   
+        .stretch>div{
+            height: 300px;
+            width: 40px;
+            padding: 40px;
+            margin: 40px;
+            background-color: aqua;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Align space-around</h1>
+
+    <div class="space-around"> 
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    <h1>Align space-between</h1>
+    
+    <div class="space-between"> 
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    <h2> align space-stretch</h2>
+    <div class=" stretch"> 
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>1</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .item{
+            display: flex;
+            align-items: center;
+            background-color: aliceblue;
+            
+        }
+        .item>div{
+            width: 10px;
+            background-color: rgb(199, 222, 0);
+            padding: 50px;
+            margin: 50px;
+        }
+        .flex-start{
+            display: flex;
+            align-items: flex-start;
+            background-color: yellow;
+        }
+        .flex-start>div{
+            width: 40px;
+            margin: 40px;
+            padding: 40px;
+            background-color: rosybrown;
+            text-align: end ;
+        }
+        .flex-end{
+            width: 1000px;
+            height: 500px;
+            display: flex;
+            align-items: flex-end;
+            background-color: burlywood;
+
+        }
+        .flex-end>div{
+            width: 40px;
+            margin: 40px;
+            padding: 40px;
+            background-color: sienna;
+            color: aliceblue;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Align center</h1>
+<div class="item"> 
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+</div>
+<h1>Align flex-start</h1>
+<div class="flex-start"> 
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+</div>
+    
+<h1>Align flex-end</h1>
+<div class="flex-end"> 
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+</div>
+</body>
+</html>
