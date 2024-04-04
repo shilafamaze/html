@@ -1,0 +1,30 @@
+.div{
+    
+    background: linear-gradient(90deg, rgba(13,20,57,0.8548669467787114) 0%, rgba(13,13,12,0.9613095238095238) 92%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+body{
+
+    margin: 0px;
+}
+
+
+img{
+    
+    width: auto;
+    height: auto;
+    padding: 40px;
+    opacity: 0.3;
+}
+img:hover{
+    
+   opacity: 1;
+   border: 2.8px solid;
+   border-radius: 10px;
+   background:linear-gradient(90deg, rgba(0,36,9,0.4686609686609686) 0%, rgba(115,188,161,0.6965811965811965) 28%);
+   border-color:  rgb(172,113,177);
+}
