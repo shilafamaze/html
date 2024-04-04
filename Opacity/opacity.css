@@ -1,0 +1,23 @@
+
+.firstdiv{
+  
+    padding-left : 30px;
+    background-color: blueviolet;
+    color: #861b1b;
+    margin-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+div{
+    background-color: blue;
+    width: ;
+    height: 500px;
+}
+.ps{
+   opacity: 0.4;
+    font-weight: bold;
+    font-size: 25px;
+}
+h1{
+    opacity: 0.5;
+}
