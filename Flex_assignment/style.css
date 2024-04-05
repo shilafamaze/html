@@ -4,6 +4,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    position: relative;
     
     
 }
@@ -13,17 +14,90 @@ body{
 }
 
 
-img{
+ img{
     
     margin: 40px;
     padding: 2px;
     opacity: 0.3;
-}
-img:hover{
+    width: 218px;
+    height: 146px;
+} 
+.a img:hover{
     
    opacity: 1;
-   border: 3px solid;
+   border: 3px solid ;
    border-radius: 10px;
-   background:linear-gradient(90deg, rgba(0,36,9,0.4686609686609686) 0%, rgba(115,188,161,0.6965811965811965) 28%);
-   border-color:  rgb(172,113,177);
+   background:linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+   
 }
+.b img:hover{
+    opacity: 1;
+    border: 3px solid ;
+    border-radius: 10px;
+    background:linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    
+}
+.c img:hover{
+    opacity: 1;
+    border: 3px solid ;
+    border-radius: 10px;
+    background:linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    
+}
+.d img:hover{
+    opacity: 1;
+    border: 3px solid ;
+    border-radius: 10px;
+    background:linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    
+}
+.e img:hover{
+    opacity: 1;
+    border: 3px solid ;
+    border-radius: 10px;
+    background:linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    
+}
+.f img:hover{
+    opacity: 1;
+    border: 3px solid ;
+    border-radius: 10px;
+    background:linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    
+}
+.g img:hover{
+    opacity: 1;
+    border: 3px solid ;
+    border-radius: 10px;
+    background:linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    
+}
+.h img:hover{
+    opacity: 1;
+    border: 3px solid ;
+    border-radius: 10px;
+    background:linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    
+}
+.i img:hover{
+    opacity: 1;
+    border: 3px solid ;
+    border-radius: 10px;
+    background:linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    
+}
+.j img:hover{
+    opacity: 1;
+    border: 3px solid ;
+    border-radius: 10px;
+    background:linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    
+}
+.k img:hover{
+    opacity: 1;
+    border: 3px solid ;
+    border-radius: 10px;
+    background:linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    
+}
+
