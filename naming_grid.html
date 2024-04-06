@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{ grid-area: header;}
+        .b{grid-area: menu;}
+        .c{grid-area: main;}
+        .d{grid-area: right;}
+        .e{grid-area: about;}
+        .f{grid-area: footer;}
+        .main{
+            display: grid;
+            grid-template-areas:   
+            'menu menu header header header header right right'
+            'menu menu main main main main right right'
+            'menu menu main main main main right right'
+            'about about main main main main right right'
+            'about about main main main main right right'
+            'footer footer footer footer footer footer footer footer';
+            background-color: rgb(42, 222, 117);
+            gap: 6px;
+            padding: 10px;
+        }
+        .main>div{
+            background-color: rgb(223, 122, 50);
+            padding: 20px;
+
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="a">header</div>
+        <div class="b">menu</div>
+        <div class="c">main</div>
+        <div class="d">right</div>
+        <div class="e">about</div>
+        <div class="f">footer</div>
+        
+
+    </div>
+</body>
+</html>
