@@ -21,8 +21,10 @@ body{
     opacity: 0.3;
     width: 218px;
     height: 146px;
+    transition: .5s;
+    
 } 
-.a img:hover{
+.asd img:hover{
     
    opacity: 1;
    border: 3px solid ;
@@ -30,75 +32,3 @@ body{
    background:linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
    
 }
-.b img:hover{
-    opacity: 1;
-    border: 3px solid ;
-    border-radius: 10px;
-    background:linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-    
-    
-}
-.c img:hover{
-    opacity: 1;
-    border: 3px solid ;
-    border-radius: 10px;
-    background:linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-    
-}
-.d img:hover{
-    opacity: 1;
-    border: 3px solid ;
-    border-radius: 10px;
-    background:linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-    
-}
-.e img:hover{
-    opacity: 1;
-    border: 3px solid ;
-    border-radius: 10px;
-    background:linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-    
-}
-.f img:hover{
-    opacity: 1;
-    border: 3px solid ;
-    border-radius: 10px;
-    background:linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-    
-}
-.g img:hover{
-    opacity: 1;
-    border: 3px solid ;
-    border-radius: 10px;
-    background:linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-    
-}
-.h img:hover{
-    opacity: 1;
-    border: 3px solid ;
-    border-radius: 10px;
-    background:linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-    
-}
-.i img:hover{
-    opacity: 1;
-    border: 3px solid ;
-    border-radius: 10px;
-    background:linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-    
-}
-.j img:hover{
-    opacity: 1;
-    border: 3px solid ;
-    border-radius: 10px;
-    background:linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-    
-}
-.k img:hover{
-    opacity: 1;
-    border: 3px solid ;
-    border-radius: 10px;
-    background:linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-    
-}
-
