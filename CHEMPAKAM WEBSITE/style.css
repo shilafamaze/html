@@ -1,0 +1,50 @@
+.main-container{
+
+}
+body{
+    margin: 0;
+
+}
+.top-bar{
+    background-color: #b4952f5e;
+    width: 100%;
+    height: 25px;
+
+}
+.headline{
+    padding: 18px 128px;
+}
+.head {
+    position: relative;
+    height: 127px;
+    width: 100%;
+    background-color: #0f1110d8;
+}
+.head-left{
+    position: absolute;
+    width: 50%;
+
+
+}
+
+.head-right{
+    position: absolute;
+    right: 0px;
+    width: 50%;
+    margin: 15px 67px;
+}
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+
+}
+li{
+    float: left;
+}
+.top-bar {
+    background-color: #b4952f5e;
+    width: 100%;
+    height: 25px;
+}
