@@ -1,0 +1,69 @@
+body{
+    margin: 0px;
+}
+.top-bar{
+    background-color: #b4952f5e;
+    width: 100%;
+    height: 25px;
+}
+.header{
+    position: relative;
+    height: 127px;
+    width: 100%;
+    background-color: #0f1110d8;
+}
+.logo{ 
+    position:absolute;
+    width: 37%;
+    height: 100%;
+}
+.img-log{
+    width: 60%;
+    margin: 16px 100px;
+    height: 92px;
+}
+.navbar{
+    position: absolute;
+    right: 215px;
+    top: 10px;
+    width: 50%;
+    height: 100%;
+
+}
+ul{
+    list-style-type:none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+li a{
+    display: inline-block;
+    margin: 20px;
+    padding:0px;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+
+
+a{
+    float: left;
+}
+.center{    
+    background-color: #b4952f5e;
+    width: 100%;
+    height:250px;
+     
+    
+}    
+
+
+.curcule-img{
+
+}
+.product-details{
+
+}
+.footer{
+
+}
